@@ -2,7 +2,7 @@
 name: Event Repeater
 type: module
 description: 'Generates repeated event nodes based on recurrence rules'
-core_version_requirement: ^10
+core_version_requirement: ^10 || ^11
 package: Custom
 dependencies:
   - drupal:node
