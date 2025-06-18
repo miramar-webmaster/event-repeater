@@ -1,0 +1,9 @@
+# modules/custom/event_repeater/event_repeater.info.yml
+name: Event Repeater
+type: module
+description: 'Generates repeated event nodes based on recurrence rules'
+core_version_requirement: ^10
+package: Custom
+dependencies:
+  - drupal:node
+  - drupal:datetime

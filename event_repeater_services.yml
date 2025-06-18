@@ -1,0 +1,5 @@
+# modules/custom/event_repeater/event_repeater.services.yml
+services:
+  event_repeater.service:
+    class: Drupal\event_repeater\Service\EventRepeaterService
+    arguments: ['@entity_type.manager']
